@@ -9,4 +9,6 @@ window.application = {
 		window.application.blocks[`${blockName}`](container);
 	},
 	timers: [],
+	token: "",
+	idGame: "",
 };
