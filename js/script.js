@@ -1,4 +1,5 @@
 const backURL = "https://skypro-rock-scissors-paper.herokuapp.com";
+import {} from "templates.js";
 window.application = {
 	blocks: {},
 	screens: {},
