@@ -1,1 +1,47 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
 
+body, .app
+    display: flex
+    flex-direction: column
+    width: 100vw
+    height: 100vh
+    justify-content: center
+    align-items: center
+
+.form
+    &__login
+        display: flex
+        justify-content: center
+    &__control
+        width: 100%
+        margin: 15px
+    &__input
+        width: 500px
+        padding: 0 15px
+        font-size: 20px
+        border: none
+        border-bottom: 1px solid #eee
+        padding-bottom: 20px
+        transition: border 0.3s ease
+        &_error
+            border-bottom: 1px solid #f00
+        &:focus
+            border-bottom: 1px solid #000
+            outline: none
+
+.btn
+    width: 150px
+    padding: 10px 0
+    font-size: 20px
+    border: none
+    cursor: pointer
+    color: white
+    &__login, &__play
+        background: green
+        transition: (color, background) .5s ease
+        &:hover
+            color: green
+            background: white

@@ -1,1 +1,56 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, .app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__login {
+  display: flex;
+  justify-content: center;
+}
+.form__control {
+  width: 100%;
+  margin: 15px;
+}
+.form__input {
+  width: 500px;
+  padding: 0 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  transition: border 0.3s ease;
+}
+.form__input_error {
+  border-bottom: 1px solid #f00;
+}
+.form__input:focus {
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+
+.btn {
+  width: 150px;
+  padding: 10px 0;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.btn__login, .btn__play {
+  background: green;
+  transition: color, background 0.5s ease;
+}
+.btn__login:hover, .btn__play:hover {
+  color: green;
+  background: white;
+}/*# sourceMappingURL=main.css.map */
