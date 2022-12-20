@@ -194,7 +194,7 @@ export function templateEndGame(container, status) {
 	container.appendChild(imgBlock);
 	const img = document.querySelector(".img") || document.createElement("img");
 	img.classList.add("img");
-	img.src = win ? "../img/win.png" : "../img/lose.png";
+	img.src = win ? "./img/win.png" : "./img/lose.png";
 	imgBlock.appendChild(img);
 
 	const buttonBlock =
